@@ -1,0 +1,48 @@
+#EurekaClient
+server:
+  port: 8091
+spring: 
+  application:
+    name: user-microservice
+	
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+	service-url:
+	  default-zone: http://localhost:8761/eureka
+  instance:
+    hostname: localhost
+
+
+#Hikari
+#spring.datasource.type=com.zaxxer.hikari.HikariDataSource
+
+#Postgres Database
+spring:
+  jpa:
+    database: POSTGRESQL
+	hibernate:
+	  ddl-auto: update
+	open-in-view: false
+  datasource: 
+    url: jdbc:postgresql://localhost:5432/user
+	username: postgres
+	password: 1234
+  sql: 
+    init.platform: postgres
+
+
+
+#spring.datasource.hikari.maximum-pool-size=10
+#spring.datasource.hikari.minimum-idle=1
+
+security: 
+  jwt: 
+    secret: palabraSecreta
+	issuer: Main
+#session' time:15 min
+	ttlMillis: 900000000000
+
+
+
