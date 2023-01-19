@@ -9,8 +9,8 @@ eureka:
   client:
     fetch-registry: true
     register-with-eureka: true
-	service-url:
-	  default-zone: http://localhost:8761/eureka
+    service-url:
+      default-zone: http://localhost:8761/eureka
   instance:
     hostname: localhost
 
@@ -22,16 +22,16 @@ eureka:
 spring:
   jpa:
     database: POSTGRESQL
-	hibernate:
-	  ddl-auto: update
-	open-in-view: false
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
   datasource: 
-	url: jdbc:postgresql://localhost:5432/product
-	username: postgres
-	password: 1234
-	hikari:
-	  maximum-pool-size: 10
-	  minimum-idle: 1
+    url: jdbc:postgresql://localhost:5432/product
+    username: postgres
+    password: 1234
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 1
   sql: 
     init.platform: postgres
 
@@ -52,6 +52,6 @@ spring:
 security: 
   jwt: 
     secret: palabraSecreta
-	issuer: Main
+    issuer: Main
 #session' time:15 min
-	ttlMillis: 900000000000
+    ttlMillis: 900000000000
