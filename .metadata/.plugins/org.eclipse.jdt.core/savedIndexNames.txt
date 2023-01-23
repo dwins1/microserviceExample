@@ -1,7 +1,6 @@
 INDEX VERSION 1.131+C:\Ejemplo Microservicios\.metadata\.plugins\org.eclipse.jdt.core
 2980077807.index
 4281695170.index
-375871258.index
 2378248709.index
 1963665366.index
 3552650134.index
@@ -10,8 +9,6 @@ INDEX VERSION 1.131+C:\Ejemplo Microservicios\.metadata\.plugins\org.eclipse.jdt
 2339877872.index
 2317501585.index
 1905162752.index
-2405553689.index
-2115806998.index
 3666612986.index
 1370725689.index
 4054099456.index
@@ -21,8 +18,6 @@ INDEX VERSION 1.131+C:\Ejemplo Microservicios\.metadata\.plugins\org.eclipse.jdt
 2117772466.index
 820494838.index
 3193877846.index
-3275059828.index
-3239440861.index
 2273847276.index
 4266359421.index
 1865797976.index
@@ -55,14 +50,11 @@ INDEX VERSION 1.131+C:\Ejemplo Microservicios\.metadata\.plugins\org.eclipse.jdt
 2995206524.index
 264765624.index
 2933728649.index
-3443927301.index
 2021359771.index
 3473777040.index
 2666491451.index
-141696770.index
 3120250875.index
 3086022969.index
-2825612499.index
 3024471743.index
 4294176439.index
 471803626.index
@@ -101,7 +93,6 @@ INDEX VERSION 1.131+C:\Ejemplo Microservicios\.metadata\.plugins\org.eclipse.jdt
 1789711197.index
 1869504334.index
 3980237261.index
-222060650.index
 3348198694.index
 3699261317.index
 2004320994.index
